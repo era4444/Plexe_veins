@@ -1,0 +1,10 @@
+
+<routes>
+   <vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="14" color="1,1,0"/>
+   <route id="route0" numlanes="2" edges="-39539626 -5445204#2 -5445204#1 113939244#2 -126606716 23339459 30405358#1 85355912 85355911#0 85355911#1 30405356 5931612 30350450#0 30350450#1 30350450#2 4006702#0 4006702#1 4900043 4900041#1"/>
+   <route id="route1" numlanes="2" edges="4319351 4319352#0 4319352#1 44069041#0 44069041#1 4400949 31982182#0 31982182#1"/>
+   <route id="route2" numlanes="2" edges="30405358#0 30405358#1 85355912 85355911#0 85355911#1 30405356 5931612 30350450#0 30350450#1 30350450#2 4319353 4319349"/>
+   <flow id="flow0" type="vtype0" route="route0" begin="0" period="3" number="200"/>
+   <flow id="flow1" type="vtype0" route="route1" begin="0" period="2" number="500"/>
+   <flow id="flow2" type="vtype0" route="route2" begin="0" period="3" number="500"/>
+</routes>

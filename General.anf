@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/plexe-veins/examples/veins/results/General-*.vec"/>
+    <inputs name="/plexe-veins/examples/veins/results/General-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="total_lost_pk">
+      <items xsi:type="scave:Add" filterPattern="name(TotalLostPackets)"/>
+      <items xsi:type="scave:Add" filterPattern="name(ReceivedBroadcasts)"/>
+      <items xsi:type="scave:Add" filterPattern="name(TotalLostPackets)"/>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>
